@@ -14,7 +14,7 @@ dependencies {
 Attributes	|Description	|Default value
 ---------------------------------------|-------------------------------------------------|-------------------
 check_checked	|Current state	|false
-check_gravity	|Text layout	|end
+check_gravity	|Text layout (end, start)	|end
 check_icon_Checked	|Icon in checked state	|nothing
 check_icon_Unchecked	|Icon in unchecked state	|nothing
 check_style	|Style	|square
