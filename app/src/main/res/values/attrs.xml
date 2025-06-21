@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CheckBox">
+        <attr name="check_checked" format="boolean"/>
+
+        <attr name="check_gravity" format="enum">
+            <enum name="end" value="0"/>
+            <enum name="start" value="1"/>
+        </attr>
+
+        <attr name="check_icon_Checked" format="reference"/>
+        <attr name="check_icon_Unchecked" format="reference"/>
+
+        <attr name="check_style" format="enum">
+            <enum name="square" value="0"/>
+            <enum name="circle" value="1"/>
+            <enum name="tick" value="2"/>
+            <enum name="icon" value="3"/>
+        </attr>
+
+        <attr name="check_text" format="string"/>
+        <attr name="check_textColor" format="color"/>
+        <attr name="check_textSize" format="dimension"/>
+
+        <attr name="button_checkedColor" format="color"/>
+        <attr name="button_uncheckedColor" format="color"/>
+
+        <attr name="icon_uncheckedColor" format="color"/>
+        <attr name="ripple_Color" format="color"/>
+        <attr name="tick_checkedColor" format="color"/>
+        <attr name="tick_uncheckedColor" format="color"/>
+
+    </declare-styleable>
+
+</resources>
