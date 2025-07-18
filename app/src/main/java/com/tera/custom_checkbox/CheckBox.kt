@@ -21,17 +21,11 @@ import androidx.core.content.withStyledAttributes
 
 typealias OnCheckedChangeListener = (view: CheckBox, isChecked: Boolean) -> Unit
 
-class CheckBox
-    (
+class CheckBox @JvmOverloads constructor(
     context: Context,
-    attrs: AttributeSet?,
-    defStyleRes: Int
+    attrs: AttributeSet? = null,
+    defStyleRes: Int = 0
 ) : View(context, attrs, defStyleRes) {
-
-    constructor(context: Context, attrs: AttributeSet?) :
-            this(context, attrs, 0)
-
-    constructor(context: Context) : this(context, null)
 
     companion object {
 
